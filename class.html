@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profession-Pilot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .nav-item {
+    color: #066220;
+}
+
+.slider-main {
+    display: flex;
+}
+
+.slider-images img {
+    filter: grayscale(100%);
+}
+
+.slider-images img:hover {
+    filter: grayscale(0%);
+}
+.but{
+    background: transparent;
+    border: 3px solid #066220;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: 15rem;
+}
+.button{
+    transition: 0.5s;
+    
+}
+button:hover{
+    transition: 0.5s;
+    transform: translateY(-7px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.txt{
+    text-align: center;
+    font-weight: bold;
+}
+.box{
+    box-shadow: 15px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.information2{
+    text-align: center;
+  
+    justify-content: center;
+    padding-bottom: 5%;
+   
+}
+.container{
+    box-shadow: 12px;text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}   
+.whoweare{
+        margin-left: 5%;
+        display: flex;
+        color: #ffffff;
+  
+}
+.txt2{
+    margin-top: 11%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    background-color: #066220;
+    border-radius: 3%;
+}
+   
+.button2{
+    position: absolute;
+    top: 290%;
+    right: 29.5%;
+    color: #ffffff;
+}
+.btn{
+    padding: 1% 5%;
+    transition: 0.5s;
+    background-color: #066220;
+    color: white;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.btn:hover{
+    transition: 0.5s;
+    transform: translateY(-1px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+.dropdown-item{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #066220;
+    transition: 0.7s;
+    transform:translateY(4px);
+    border-radius: 2px;
+    
+}
+.dropdown-item:hover{
+    transition: 0.5s;
+    transform:translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.nav-link{
+    color: #066220;
+
+}
+.nav-link:hover{
+    color:black;
+}
+.navbar{
+    background-color: #066220;
+}
+
+/* footer */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: '', ;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color:white;
+    font: normal 36px 'Cookie', ;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color:white;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #066220;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    transform: translateX(-5px);
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #ffffff;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.footer-links a:hover {
+    color: #066220;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}             
+.form-control1{
+    color: #066220;
+    width: 850px;
+    height: 35px;
+    border: black 2px solid ;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.aboutus{
+    border: #066220 2px solid;
+    background-color:#066220;
+    color:white;
+    width: 50%;
+    padding: 2%;
+    border-radius: 10PX;
+    position: absolute;
+    top: 80%;
+    margin-left: 5%;  
+} 
+.data{
+    margin-left: 1%;
+}
+.fontlarger{ 
+    font-size: larger;
+    margin-left: 1%;
+}        
+
+</style>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+   <nav class="navbar navbar-expand-lg bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="static/profession-removebg-preview.png" alt="" width="50%">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/home" style="font-weight: bold;font-size:18px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/quizpage" style="font-weight: bold;font-size:17px">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about" style="font-weight: bold;font-size:17px">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="font-weight: bold; font-size:18px;">
+              Courses After
+            </a>
+            <ol class="dropdown-menu">
+              <li><a class="dropdown-item" href="/matriculation">Matricultion</a></li>
+              <li><a class="dropdown-item" href="/class">12 Class</a></li>
+            </ol>
+          </ul>
+        <form class="d-flex" role="search">
+
+        </form> <a href="/" class="button" style="border: #066220; text-decoration: none; color:white; margin-left: 15%;margin-right:2%; border: #066220 solid; background-color: #066220; padding:0.5% 2.5%; border-radius: 5px; font-weight: 500; box-shadow: 15%;">LOGOUT</a>
+      </div>
+    </div>
+  </nav>
+  <!-- body section -->
+  <h1 style="text-align: center; margin-top:3%; color: #066220; text-decoration:underline;">CAREER OPTIONS AFTER 12
+    CLASS</h1>
+    <br>
+    <img  style="margin-left: 35%;" src="static/Choosing-Right-Degree-Feature-Header.png"  alt="" width="30%"> <br>
+  <br>
+  <h2>->How can you Choose the Right Course After 12th Science? </h2>
+  <br>
+  <ol style="font-size: larger;">
+    <li><b>Know Your Interests:</b>You must select a path that corresponds to your interests and abilities. If you want
+      to pursue a career in music or the arts, you should choose the best courses after 12th science that is to your
+      artistic aspirations. </li>
+
+    <li><b>Choose the Right Course:</b> Understand the course specifics - curriculum and teaching methods - thoroughly
+      before making a selection. Reach out to graduates or seniors currently studying there to get a glimpse of how it
+      is. </li>
+
+    <li><b>Understand the Potential:</b> Now that you know what your passions are and how you can teach yourself to
+      follow them, it is time to assess the potential of the career pathway you have selected.</li>
+  </ol>
+  <h2>->Career Options After 12th Science </h2>
+  <br>
+  <div class="fontlarger">
+    <p>The scientific stream provides a vibrant professional environment rich in specializations and chances for
+      exploration. There are several career options after 12th science available after 12th science, ranging from
+      extensive research potential to increased innovation and technology. Below are some of the best career options
+      after 12th science: </p>
+    <br>
+    <img  style="margin-left: 35%;" src="static/engineering.png"  alt="" width="30%"> <br>
+    <h3>1. Engineering</h3>
+    <p>Engineering is one of the most popular PCM career options after 12th grade. It is a practical scientific
+      discipline that aids in designing and developing systems. <br>
+
+      The best courses after 12th science engineering are </p>
+    <ol>
+      <li>Tech in Mechanical Engineering</li>
+      <li>Tech in Civil Engineering</li>
+      <li>Tech in Computer Science Engineering</li>
+      <li>Tech in Biomedical Engineering</li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/medical.png"  alt="" width="30%"> <br>
+    <h3>2. Medical </h3>
+    <p>The medical profession is esteemed and one of the most well-paid PCB career options. The start of the COVID-19
+      pandemic has highlighted the necessity of medical experts.</p><br>
+    <p>The best medical courses after the 12th are </p>
+    <br>
+    <ol>
+      <li>MBBS – Bachelor of Medicine and Bachelor of Surgery </li>
+      <li>BAMS – Bachelor of Ayurvedic Medicine and Surgery </li>
+      <li>BDS – Bachelor of Dental Surgery </li>
+      <li>BUMS – Bachelor of Unani Medicine and Surgery </li>
+      <li>BYNS- Bachelor of Yoga and Naturopathy Sciences </li>
+      <li>BHMS – Bachelor of Homeopathy Medicine and Surgery </li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/biotechnology.jpg"  alt="" width="30%"> <br>
+    <h3>3. Biotechnology </h3>
+    <br>
+    <p>Biotechnology employs cellular and biomolecular processes to develop products and services that benefit both
+      humans and nature. </p>
+    <br>
+    <p>Students with a Biotech degree can work in a variety of sectors, including </p>
+    <br>
+    <ol>
+      <li>Healthcare </li>
+      <li>Genetic Engineering </li>
+      <li>Textile industry </li>
+      <li>Cosmetics</li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/microbiology.jpg"  alt="" width="30%"> <br>
+    <h3>4. Microbiology </h3>
+    <br>
+    <p>A microbiologist has many opportunities after 12th science in the fields, including environmental
+      microbiologists, industrial microbiologists, research assistants, clinical and veterinary microbiologists, and
+      more. </p>
+    <br>
+    <p>Best courses after 12th science: </p>
+    <br>
+    <ol>
+      <li>Bachelor of Science in Microbiology </li>
+      <li>BSc in Applied Microbiology</li>
+      <li>BSc in Industrial Microbiology</li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/forensic-science.webp"  alt="" width="30%"> <br>
+    <h3>5. Forensic Science </h3>
+    <br>
+    <p>Forensic Science is a sub-field of Criminology that is associated with the use of science in criminal proceedings
+      and examinations. </p>
+    <br>
+    <p>Popular Forensic Science degrees include: </p>
+    <br>
+    <ol>
+      <li>BSc in Forensic Science </li>
+      <li>Graduate Certificate in Digital Forensics </li>
+      <li>MSc in Forensic Science </li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/biochemistry.png"  alt="" width="30%"> <br>
+    <h3>6. Biochemistry </h3>
+    <br>
+    <p>The study of chemical processes within and related to living beings is known as biochemistry. A branch of
+      chemistry and biology that is separated into three fields:</p>
+    <br>
+    <ol>
+      <li>Structural biology</li>
+      <li>Enzymology, and</li>
+      <li>Metabolism.</li>
+    </ol>
+    <br>
+    <p>The study of chemical processes within and related to living beings is known as biochemistry. A branch of
+      chemistry and biology that is separated into three fields:</p>
+    <br>
+    <p>The best courses in Biochemistry are </p>
+    <br>
+    <ol>
+      <li>B.Sc. (Biochemistry) </li>
+      <li>B.Sc. (Hons.) (Biochemistry) </li>
+      <li>B.Sc. (Medical Biochemistry) </li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/Entrepreneurship.jpg"  alt="" width="30%"> <br>
+    <h3>7. Entrepreneurship </h3>
+    <br>
+    <p>Entrepreneurship is launching new enterprises and accepting the risks and rewards of being an owner. All you need
+      is a solid concept and some finance. <br> <br>
+
+      The top courses are:</p>
+    <ol>
+      <li>B.Sc Physics with Astrophysics</li>
+      <li>B.Sc in Space and Astrophysics</li>
+      <li>BSc in Physics and astrophysics with a year in industry</li>
+      <li>B.Sc Astrophysics</li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/astrophysics.jpg"  alt="" width="30%"> <br>
+    <h3>8. Astrophysics</h3>
+    <p>Astrophysics is the discipline of space science that uses physical and chemical principles to explain the origin,
+      existence, and demise of stars, planets, galaxies, comets, and other celestial objects. <br> <br>
+
+      The top courses are </p>
+    <br>
+    <ol>
+      <li>B.Sc Physics with Astrophysics</li>
+      <li>B.Sc in Space and Astrophysics </li>
+      <li>BSc in Physics and astrophysics with a year in industry</li>
+      <li>B.Sc Astrophysics</li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/molecular-biology.jpg"  alt="" width="30%"> <br>
+    <h3>9. Molecular Biology </h3>
+    <br>
+    <p>A Molecular Biologist is a scientist who studies genetics, physiology, chemistry, biology, and physics. <br><br>
+
+      The professional courses after 12th science are: </p>
+    <ol>
+      <li>BSc in Microbiology </li>
+      <li>BSc in Applied Microbiology</li>
+      <li>BSc in Industrial Microbiology</li>
+    </ol>
+    <br>
+    <img  style="margin-left: 35%;" src="static/aviation.avif"  alt="" width="30%"> <br>
+    <h3>10. Aviation </h3>
+    <br>
+    <p>Aviation is a fascinating field with enormous promise and scope. Aviation is an excellent career choice if you
+      can make rapid choices, are physically fit, and have excellent communication skills. <br><br>
+
+      The top courses after the 12th are </p>
+    <ol>
+      <li>B.B.A. in Airport Management </li>
+      <li>Diploma in Airport Management</li>
+      <li>BSc Aviation</li>
+      <li>BSc Aviation Technology</li>
+    </ol>
+    <br>
+    <h3>->Which course is best after 12th science with a high salary?</h3>
+    <br>
+    <p>Some of the best courses after 12th science with a high salary are:</p>
+    <br>
+    <ul>
+      <li>Bachelor of Engineering </li>
+      <li>Bachelor of Computer Applications</li>
+      <li>Bachelor of Medicine and Bachelor of Surgery</li>
+      <li>Chartered Accountancy</li>
+      <li>B.Sc. Nautical Science</li>
+      <li>B.E. Marine Engineering</li>
+      <li>Bachelor of Business Administrative </li>
+      <li>Bachelor of Pharmacy</li>
+    </ul>
+    <br>
+    <h2>->Career options After 12th Commerce</h2>
+    <br>
+    Here is a list of courses after 12th Commerce which you can consider if you want to build a career in finance,
+    economics or related fields. <br><br>
+
+    <h3>1. Bachelor of Commerce (BCom) </h3>
+    <br><br>
+    One of the most popular commerce career options is The Bachelor of Commerce (BCom) degree is a three-year
+    undergraduate degree program in commerce and business studies. The BCom degree program covers various aspects of
+    commerce and business, such as accounting, finance, marketing, human resources, and Information Technology. The BCom
+    degree program is designed to provide students with a sound understanding of the principles and practices of
+    commerce and business. 
+    <br>
+    <br>
+
+    <h3>2. Bachelor of Economics (BE)</h3>
+    <br>
+    <br>
+    The Bachelor of Economics (BE) is a three-year undergraduate degree in economics offered by many universities in
+    India, Australia, and New Zealand. The BE degree is also offered by some universities in Canada, Ireland, Singapore,
+    and the United Kingdom. The BE degree is designed to provide students with a strong foundation in economic
+    principles and their applications. The degree covers a broad range of economic topics, including microeconomics,
+    macroeconomics, econometrics, and economic history. Students who complete a BE degree will have the skills and
+    knowledge to pursue a career in economics, finance, or a related field. Obtaining this degree is among the excellent
+    career options after 12th commerce.
+    <br>
+    <br>
+
+    <h3>3. Bachelor of Accounting and Finance (BAF)</h3>
+    <br>
+    <br>
+    The Bachelor of Accounting and Finance (BAF) degree is a four-year undergraduate degree that combines coursework in
+    accounting and finance. The BAF is among professional courses after 12th commerce, designed for students who are
+    interested in pursuing a career in accounting or finance or who wish to combine their accounting and finance
+    knowledge to pursue a career in business. 
+    <br>
+    <br>
+
+    <h3>4. Bachelor of Commerce in Banking and Insurance (BBI)</h3>
+    <br>
+    <br>
+    There are many career options for commerce students. Bachelor of Commerce in Banking and Insurance (BBI) is a
+    four-year undergraduate degree program. The program is designed to provide students with a sound understanding of
+    the banking and insurance sectors with a focus on the Indian context. The program is also designed to develop
+    students' analytical and problem-solving skills. 
+    <br>
+    <br>
+
+    <h3> 5. Bachelor of Commerce in Financial Market (BFM)</h3>
+    <br>
+    <br>
+    The Bachelor of Commerce in Financial Market (BFM) is a three-year undergraduate degree. The program is designed to
+    provide students with a sound understanding of the financial markets, and how they work. The program is highly
+    sought-after by students who wish to enter the financial sector and has a strong track record of placing students in
+    top-tier banks and financial institutions. This is one of the best career options after 12th commerce.
+
+    <h3>6. Bachelor of Business Administration (BBA)</h3>
+    <br>
+    <br>
+    The Bachelor of Business Administration (BBA) is a commerce stream career option which is a four-year degree program
+    that provides students with the skills and knowledge necessary to pursue a career in business. The BBA curriculum
+    includes courses in accounting, finance, marketing, and management. In addition to academic coursework, BBA students
+    must complete a professional internship to graduate. 
+    <br>
+    <br>
+
+    <h3>7. Bachelor of Business Administration – International Business (BBA-IB)</h3>
+    <br>
+    <br>
+    The Bachelor of Business Administration – International Business (BBA-IB) degree program is designed to provide
+    students with the necessary skills and knowledge to be successful in today’s global business environment. The
+    program focuses on the development of cross-cultural understanding, global business knowledge, and international
+    business skills. 
+    <br>
+    <br> 
+
+    <h3>8. Bachelor of Business Administration – Computer Application (BBA-CA)</h3>
+    <br>
+    <br>
+    BBA-CA is a 3-year undergraduate course offered by many universities in India. The course is designed to provide
+    students with an understanding of the various aspects of computer applications in businesses. The course curriculum
+    covers topics such as programming, data structures, database management, systems analysis and design, and web
+    technologies. 
+    <br>
+    <br>
+
+    <h3>9. Industry Oriented Integrated Courses</h3>
+    <br>
+    <br>
+    Industry Oriented Integrated Courses (IOICs) is an excellent commerce career option to gain the skills and knowledge
+    needed to be successful in today's competitive marketplace. IOCs are offered by many colleges and universities and
+    are designed to provide students with the opportunity to learn about a specific industry while also completing their
+    degree. 
+    <br>
+    <br>
+
+    <h3>10. Chartered Accountancy</h3>
+    <br>
+    <br>
+    A Chartered Accountant (CA) is a popular career option after 12th commerce. It is a professional accountant degree
+    that has been granted chartered status by a regulatory body. The role of a Chartered Accountant is to provide
+    financial and business advice to clients. Chartered Accountants work in a variety of industries, including public
+    accounting, corporate accounting, and government accounting. They may also work in financial services, such as
+    investment banking and insurance. 
+    <br>
+    <br>
+    <h2>->Best Courses After 12th Commerce with Math</h2>
+    <br>
+    <br>
+
+    <h3>1. BCom Hons</h3>
+    <p>The Bachelor of Commerce (BCom) degree is a three-year undergraduate degree program in commerce and business
+      studies. The BCom degree program covers various aspects of commerce and business, such as accounting, finance,
+      marketing, human resources, and information technology. BCom Hons is among the respectful and sought after
+      graduation courses after 12th commerce.</p>
+    <br>
+    <br>
+
+    <h3>2. C.A. (Chartered Accountancy)</h3>
+    <p> A Chartered Accountant (CA) is a great career option after commerce which is a professional accountant who has
+      been granted chartered status by a regulatory body. The role of a Chartered accountant is to provide financial and
+      business advice to clients.</p>
+    <br>
+    <br>
+
+    <h3>3. B.E (Bachelor of Economics)  </h3>
+    <p>Bachelor of Economics, also known as B.E., is an undergraduate degree course that is pursued by students who want
+      to make their career in the field of economics. After pursuing this degree, you can obtain some of the best jobs
+      after 12th commerce.</p>
+    <br>
+    <br>
+
+    <h3>4. B.F.A (Bachelor of Finance and Accounting) </h3>
+    <p>The Bachelor of Finance and Accounting (B.F.A.) is a four-year degree program that provides students with the
+      skills and knowledge necessary to pursue a career in finance or accounting.</p>
+    <br>
+    <br>
+
+    <h3>5. B.C.A(Bachelor of Computer Applications)  </h3>
+    <p>B.C.A stands for Bachelor of Computer Applications. It is an undergraduate degree course in computer
+      applications. The course is designed to provide students with a strong foundation in computer applications.  </p>
+    <br>
+    <br>
+
+    <h3>6. B.Sc. (Applied Mathematics) </h3>
+    <p> A B.Sc. in Applied Mathematics is a great way to start your career in the mathematical sciences. Applied
+      mathematics is the study of mathematical methods and techniques that are used in scientific, engineering, and
+      business applications. </p>
+    <br>
+    <br>
+
+    <h3>7. B.Sc. Hons (Math) </h3>
+    <p>B.Sc. Hons (Math) is a three-year degree course that is mainly divided into six semesters. The first three
+      semesters are for the foundation course and the last three semesters are for the specialization. </p>
+    <br>
+    <br>
+
+    <h3>8. B.Sc. (Statistics)</h3>
+    <p> A B.Sc. in Statistics is a degree that can be earned after completing an accredited college or university
+      program. This type of degree is typically earned by students who have an interest in mathematics and want to apply
+      their skills to various fields.  </p>
+    <br>
+    <br>
+
+    <h3>9. BIBF (Bachelor of International Business and Finance) </h3>
+    <p> The degree program combines coursework in international business, finance, and economics with a foreign language
+      component and a study abroad experience. </p>
+    <br>
+    <br>
+
+    <h3>10. BJMC (Bachelor of Journalism and Mass Communication) </h3>
+    <p>The Bachelor of Journalism and Mass Communication (BJMC) is a 3-year undergraduate course that imparts skills and
+      knowledge related to the field of journalism and mass communication. The course curriculum covers aspects like
+      news writing, photojournalism, television and radio broadcasting, public relations, advertising, and media laws. 
+    </p>
+    <br>
+    <br>
+
+    <h2>Best Courses After 12th Commerce Without Math.</h2>
+    <br>
+    <br>
+    <h3>1. BCom (Bachelor of Commerce)</h3>
+    <p>The Bachelor of Commerce (B. Com) degree is a three-year undergraduate degree program in commerce and business
+      studies. The B. Com degree program covers various aspects of commerce and business, such as accounting, finance.
+    </p>
+    <br>
+    <br>
+
+    <h3>2. BBA (Bachelor of Business Administration) </h3>
+    <p>The Bachelor of Business Administration (BBA) is a four-year degree program that provides students with the
+      skills and knowledge necessary to pursue a career in business.</p>
+    <br>
+    <br>
+
+    <h3>3. BMS (Bachelor of Management Studies) </h3>
+    <p>BMS stands for Bachelor of Management Studies. It is a three-year undergraduate course that imparts students with
+      knowledge of business and management.</p>
+    <br>
+    <br>
+
+    <h3>4. Company Secretary </h3>
+    <p>A Company Secretary (CS) is a professional who is responsible for the secretarial and legal compliance of a
+      company. They are often responsible for maintaining the company's statutory books, preparing and filing annual
+      returns. If you are interested in finance, you can pursue this course as it is one of the best courses to do after
+      12th commerce.</p>
+    <br>
+    <br>
+
+    <h3>5. Bachelor in Travel and Tourism </h3>
+    <p>
+      A Bachelor of Travel and Tourism is an undergraduate degree that prepares students for a career in the travel and tourism industry. The degree typically takes four <br> years to complete and covers topics such as business, management, marketing, and finance.
+    </p>
+    <br>
+    <br>
+
+    <h3>6. Bachelor's in Hospitality </h3>
+    <p>A bachelor's degree in hospitality typically takes four years to complete and provides students with the
+      necessary skills and knowledge to pursue a career in the hospitality industry. </p>
+    <br>
+    <br>
+
+    <h3>7. Bachelor in Event Management </h3>
+    <p>A bachelor's degree in Event Management can lead to a career in various event-related fields, including wedding
+      planning, corporate event planning, and event marketing. </p>
+    <br>
+    <br>
+
+    <h3>8. Bachelor in Hotel Management </h3>
+    <p>A Bachelor in Hotel Management is a professional degree that equips students with the skills and knowledge
+      necessary to pursue a career in the hotel industry.  </p>
+    <br>
+    <br>
+
+    <h3>9. Bachelor of Journalism  </h3>
+    <p>The Bachelor of Journalism degree is a four-year undergraduate degree in journalism, typically offered at a
+      university's school of journalism. The degree prepares students for a career in journalism, with a focus on
+      writing, reporting, and editing for news media.  </p>
+    <br>
+    <br>
+
+    <h3>10. BBA LLB  </h3>
+    <p>The Bachelor of Business Administration and Bachelor of Laws (abbreviated as BBA LLB) is a five-year integrated
+      course offered by many universities in India. It is a professional degree course that enables a student to pursue
+      a career in law or management or both. </p>
+    <br>
+    <br>
+
+    <h3>11. BA LLB  </h3>
+    <p>The Bachelor of Arts and Bachelor of Laws (BA LLB) is a five-year integrated course offered by many law schools
+      in India. This course includes a Bachelor of Arts and a degree in law.</p>
+    <br>
+    <br>
+
+    <h3>12. Bachelor of Foreign Trade</h3>
+    <p>The Bachelor of Foreign Trade (BFT) is an undergraduate degree offered by many universities. The degree is also
+      known as the Bachelor of International Trade or Bachelor of Commerce in Foreign Trade.  </p>
+    <br>
+    <br>
+
+    <h3>13. BBS (Bachelor of Business Studies) </h3>
+    <p>The Bachelor of Business Studies (BBS) program is designed to provide students with the skills and knowledge
+      necessary to pursue a career in business. </p>
+    <br>
+    <br>
+
+    <h3>14. BSc. Animation and Media  </h3>
+    <p>A Bachelor of Science in Animation and Media is a degree that prepares students for a career in the field of
+      animation and media. </p>
+    <br>
+    <br>
+
+    <h3>15. Bachelor of Social Work </h3>
+    <p>The BSW is designed to prepare students for professional social work practice. This degree is an excellent option
+      if you want to pursue a career which includes learning top courses after 12th commerce. </p>
+    <br>
+    <br>
+
+    <h3>16. Bachelor of Vocational Studies </h3>
+    <p>The Bachelor of Vocational Studies (B.Voc.) is one of the top courses after 12th commerce. This degree is a
+      three-year undergraduate degree program that is designed to provide students with the skills and knowledge
+      necessary to pursue a career in a specific vocation.  </p>
+    <br>
+    <br>
+
+    <h3>17. Bachelor of Arts </h3>
+    <p>A Bachelor of Arts (BA) is a degree that is typically awarded after completing four years of undergraduate study
+      in a liberal arts or social sciences program. The BA is one of the most popular degrees in the world and is often
+      the first step on the path to a successful career.  </p>
+    <br>
+    <br>
+
+    <h3>18. B.A. (Hons) </h3>
+    <p>The Bachelor of Arts with Honors degree is a four-year undergraduate degree that is offered at many universities
+      around the world. The degree is typically awarded to students who have completed an Honors program. </p>
+    <br>
+    <br>
+
+    <h3>19. B. Ed (Bachelor of Education)  </h3>
+    <p>The Bachelor of Education (B.Ed.) is a professional degree that prepares students for work as a teacher in a
+      variety of settings, including public and private schools, childcare centers. </p>
+    <br>
+    <br>
+
+    <h3>20. Bachelor of Interior Designing   </h3>
+    <p>The Bachelor of Interior Designing is a course that enables students to develop the skills and knowledge
+      necessary to pursue a career in interior design.</p>
+    <br>
+    <br>
+    <h2>->Career Options After 12th Arts/Humanities</h2>
+    <br>
+    <br>
+    <p>Bachelor of Arts is the most popular course chosen by students from the humanities stream.
+      <br>
+      <br> 
+      This is a 3-year undergraduate program that focuses mainly on the humanities. Students can join this course at universities in India by clearing the CUET 2023.
+      <br>
+      <br>
+      However, there are multiple fields of specialisation, which are as follows:</p>
+      <br>
+      <br>
+      <ul>
+        <li>Bachelor of Arts (BA) (Hons.) in Political Science</li>
+         <li> Bachelor of Arts (BA) (Hons.) in Economics</li>
+         <li> Bachelor of Arts (BA) (Hons.) in Humanities and Social Sciences</li>
+         <li>Bachelor of Arts (BA) (Hons.) in History</li> 
+         <li>Bachelor of Arts (BA) in History</li> 
+         <li>Bachelor of Arts (BA) in Geography</li> 
+         <li>Bachelor of Arts (BA) in Economics</li> 
+         <li>Bachelor of Arts (BA) in Physical Education</li> 
+         <li>Bachelor of Arts (BA) (Hons.) in Geography</li> 
+         <li>Bachelor of Arts (BA) (Programme)</li> 
+      </ul>
+      <br><br>
+      <h3>Bachelor of Arts (BA) (Hons.) in Political Science</h3>
+      <p>The course introduces the students to political theory, its history and approaches, and an assessment of its critical and contemporary trends.
+        <br>
+        <br>
+        It is designed to reconcile political theory and practice through reflections on the ideas and techniques related to democracy.
+        <br>
+        <br>
+        Here are some of the topics of study:</p>
+        <br>
+        <ul>
+          <li>Constituent Assembly and the Constitution</li>
+          <li>Organs of Government</li>
+          <li>Federalism and Decentralization</li>
+          <li>Understanding Political</li>
+          <li>Constitutional Government and Democracy in India</li>
+          <li>Political Theory-Concepts and Debates</li>
+          <li>Political Process in India</li>
+          <li>Introduction to Comparative Government and Politics</li>
+          <li>Perspectives on Public Administration </li>
+          <li>Classical Political Philosophy</li>
+        </ul>
+        <br><br>
+        
+
+
+
+
+
+  </div>
+<!-- footerr -->
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+      <h3>PROFESSION<span>-PILOT</span></h3>
+
+      <p class="footer-links">
+        <a href="/index">Home</a>
+        |
+        <a href="/about">About</a>
+        |
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Copyright © 2023 <strong>Profession-Pilot</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Ludhiana 141003</span>
+          Punjab </p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91-6239227726</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:kanavpunj2004@gmail.com">kanavpunj2004@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the website</span>
+        <strong>Profession-Pilot</strong> will help the unguided students to find their future paths according to their intrests which helps them to achieve better goals in their life.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook" style="color: blue;"></i></a>
+        <a href="#"><i class="fa fa-instagram" style="color: rgb(148, 7, 78);"></i></a>
+        <a href="#"><i class="fa fa-twitter" style="color:skyblue;"></i></a>
+        <a href="#"><i class="fa fa-youtube" style="color: red;"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

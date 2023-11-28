@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profession-Pilot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .nav-item {
+    color: #066220;
+}
+
+.slider-main {
+    display: flex;
+}
+
+.slider-images img {
+    filter: grayscale(100%);
+}
+
+.slider-images img:hover {
+    filter: grayscale(0%);
+}
+.but{
+    background: transparent;
+    border: 3px solid #066220;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: 15rem;
+}
+.button{
+    transition: 0.5s;
+    
+}
+button:hover{
+    transition: 0.5s;
+    transform: translateY(-7px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.txt{
+    text-align: center;
+    font-weight: bold;
+}
+.box{
+    box-shadow: 15px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.information2{
+    text-align: center;
+  
+    justify-content: center;
+    padding-bottom: 5%;
+   
+}
+.container{
+    box-shadow: 12px;text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}   
+.whoweare{
+        margin-left: 5%;
+        display: flex;
+        color: #ffffff;
+  
+}
+.txt2{
+    margin-top: 11%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    background-color: #066220;
+    border-radius: 3%;
+}
+   
+.button2{
+    position: absolute;
+    top: 290%;
+    right: 29.5%;
+    color: #ffffff;
+}
+.btn{
+    padding: 1% 5%;
+    transition: 0.5s;
+    background-color: #066220;
+    color: white;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.btn:hover{
+    transition: 0.5s;
+    transform: translateY(-1px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+.dropdown-item{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #066220;
+    transition: 0.7s;
+    transform:translateY(4px);
+    border-radius: 2px;
+    
+}
+.dropdown-item:hover{
+    transition: 0.5s;
+    transform:translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.nav-link{
+    color: #066220;
+
+}
+.nav-link:hover{
+    color:black;
+}
+.navbar{
+    background-color: #066220;
+}
+
+/* footer */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: '', ;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color:white;
+    font: normal 36px 'Cookie', ;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color:white;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #066220;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    transform: translateX(-5px);
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #ffffff;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.footer-links a:hover {
+    color: #066220;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}             
+.form-control1{
+    color: #066220;
+    width: 850px;
+    height: 35px;
+    border: black 2px solid ;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.aboutus{
+    border: #066220 2px solid;
+    background-color:#066220;
+    color:white;
+    width: 50%;
+    padding: 2%;
+    border-radius: 10PX;
+    position: absolute;
+    top: 80%;
+    margin-left: 5%;  
+} 
+.data{
+    margin-left: 1%;
+}
+.fontlarger{ 
+    font-size: larger;
+    margin-left: 1%;
+}        
+
+</style>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="static/profession-removebg-preview.png" alt="" width="50%">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/home" style="font-weight: bold;font-size:18px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/quizpage" style="font-weight: bold;font-size:17px">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about" style="font-weight: bold;font-size:17px">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="font-weight: bold; font-size:18px;">
+              Courses After
+            </a>
+            <ol class="dropdown-menu">
+              <li><a class="dropdown-item" href="/matriculation">Matricultion</a></li>
+              <li><a class="dropdown-item" href="/class">12 Class</a></li>
+            </ol>
+          </ul>
+        <form class="d-flex" role="search">
+
+        </form> <a href="/" class="button" style="border: #066220; text-decoration: none; color:white; margin-left: 15%;margin-right:2%; border: #066220 solid; background-color: #066220; padding:0.5% 2.5%; border-radius: 5px; font-weight: 500; box-shadow: 15%;">LOGOUT</a>
+      </div>
+    </div>
+  </nav> 
+  <!-- about -->
+  <div class="sldier">
+    <img src="static/slider11.png" alt="">
+    <div class="aboutus">
+      <h2 style="font-weight: bolder; font-size:357x;">About Us</h2>
+      <br>
+      <h5>We believe that everyone should have access to the knowledge and <br> resources they need to achieve their goals. That's why we work hard <br> to create a welcoming and inclusive community where students can <br> easily get the required information for their better future goals.</h5>
+    </div>
+    <br><br>
+    <div class="vision">
+      <br>
+      <br>
+      <br>
+      <img style="margin-left: 3%; margin-top: 5%;" src="static/aboy.png" alt="" width="">
+
+      <img src="static/1new.png" style="position: absolute; left: 45%; top: 135%;" alt="" width="3%">
+      <h4 style="position: absolute; left: 49%; top: 135.77%;">Our Mission</h4>
+      <h5 style="position: absolute; left: 49%; top: 143%;">To help those unguided students who needs <br> proper guidence by which they can easily get <br> their goals.</h5>
+
+      <img style="position: absolute; left: 45%; top: 160%;" src="static/new.png" alt="" width="3%">
+      <h4 style="position: absolute; left: 49%; top: 160.9%;">Accessible information</h4>
+      <h5 style="position: absolute; left: 49%; top: 170%;">The students have easy and wide range of inform
+        <br> -ation for their future paths by which they can easily <br> find thier way to success</h5>
+
+        <img style="position: absolute; left: 45%; top:190%;" src="static/55..png" alt="" width="3%">
+      <h4 style="position: absolute; left: 49%; top: 190.5%;">Career Guidance</h4>
+      <h5 style="position: absolute; left: 49%; top: 200%;">Students will receive guidance from career experts <br> and professionals through articles, blogs, for the <br> better future goals.</h5>
+
+    </div>
+  </div>
+<!-- footerr -->
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+      <h3>PROFESSION<span>-PILOT</span></h3>
+
+      <p class="footer-links">
+        <a href="/index">Home</a>
+        |
+        <a href="/about">About</a>
+        |
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Copyright © 2023 <strong>Profession-Pilot</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Ludhiana 141003</span>
+          Punjab </p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91-6239227726</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:kanavpunj2004@gmail.com">kanavpunj2004@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the website</span>
+        <strong>Profession-Pilot</strong> will help the unguided students to find their future paths according to their intrests which helps them to achieve better goals in their life.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook" style="color: blue;"></i></a>
+        <a href="#"><i class="fa fa-instagram" style="color: rgb(148, 7, 78);"></i></a>
+        <a href="#"><i class="fa fa-twitter" style="color:skyblue;"></i></a>
+        <a href="#"><i class="fa fa-youtube" style="color: red;"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

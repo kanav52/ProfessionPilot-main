@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profession-Pilot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .nav-item {
+    color: #066220;
+}
+
+.slider-main {
+    display: flex;
+}
+
+.slider-images img {
+    filter: grayscale(100%);
+}
+
+.slider-images img:hover {
+    filter: grayscale(0%);
+}
+.but{
+    background: transparent;
+    border: 3px solid #066220;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: 15rem;
+}
+.button{
+    transition: 0.5s;
+
+}
+button:hover{
+    transition: 0.5s;
+    transform: translateY(-7px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.txt{
+    text-align: center;
+    font-weight: bold;
+}
+.box{
+    box-shadow: 15px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.information2{
+    text-align: center;
+
+    justify-content: center;
+    padding-bottom: 5%;
+
+}
+.container{
+    box-shadow: 12px;text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.whoweare{
+        margin-left: 5%;
+        display: flex;
+        color: #ffffff;
+
+}
+.txt2{
+    margin-top: 11%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    background-color: #066220;
+    border-radius: 3%;
+}
+
+.button2{
+    position: absolute;
+    top: 290%;
+    right: 29.5%;
+    color: #ffffff;
+}
+.btn{
+    padding: 1% 5%;
+    transition: 0.5s;
+    background-color: #066220;
+    color: white;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.btn:hover{
+    transition: 0.5s;
+    transform: translateY(-1px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+.dropdown-item{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #066220;
+    transition: 0.7s;
+    transform:translateY(4px);
+    border-radius: 2px;
+
+}
+.dropdown-item:hover{
+    transition: 0.5s;
+    transform:translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.nav-link{
+    color: #066220;
+
+}
+.nav-link:hover{
+    color:black;
+}
+.navbar{
+    background-color: #066220;
+}
+
+/* footer */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: '', ;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color:white;
+    font: normal 36px 'Cookie', ;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color:white;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #066220;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    transform: translateX(-5px);
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #ffffff;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.footer-links a:hover {
+    color: #066220;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+.form-control1{
+    color: #066220;
+    width: 850px;
+    height: 35px;
+    border: black 2px solid ;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.aboutus{
+    border: #066220 2px solid;
+    background-color:#066220;
+    color:white;
+    width: 50%;
+    padding: 2%;
+    border-radius: 10PX;
+    position: absolute;
+    top: 80%;
+    margin-left: 5%;
+}
+.data{
+    margin-left: 1%;
+}
+.fontlarger{
+    font-size: larger;
+    margin-left: 1%;
+}
+
+</style>
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+   <nav class="navbar navbar-expand-lg bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="static/profession-removebg-preview.png" alt="" width="50%">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/home" style="font-weight: bold;font-size:18px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/quizpage" style="font-weight: bold;font-size:17px">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about" style="font-weight: bold;font-size:17px">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="font-weight: bold; font-size:18px;">
+              Courses After
+            </a>
+            <ol class="dropdown-menu">
+              <li><a class="dropdown-item" href="/matriculation">Matricultion</a></li>
+              <li><a class="dropdown-item" href="/class">12 Class</a></li>
+            </ol>
+          </ul>
+        <form class="d-flex" role="search">
+
+        </form> <a href="/" class="button" style="border: #066220; text-decoration: none; color:white; margin-left: 15%;margin-right:2%; border: #066220 solid; background-color: #066220; padding:0.5% 2.5%; border-radius: 5px; font-weight: 500; box-shadow: 15%;">LOGOUT</a>
+      </div>
+    </div>
+  </nav>
+  <div class="body">
+    <h1 style="text-align: center; margin-top:3%; color: #066220; text-decoration:underline;">CAREER OPTIONS AFTER MATRICULATION</h1>
+    <br>
+    <img style="margin-left: 35%;" src="static/word-science-on-green-board-and-science-equipments-vector-19841755.jpg"
+      alt="" width="30%">
+    <div class="data">
+      <h2>1. SCIENCE</h2>
+      <ul style="font-size: larger;">
+        <li> Science is the most popular and favourite career option for the majority of the parents and students.</li>
+        <li>Science stream offers many lucrative career options such as engineering, medical, IT and you can even opt
+          for research roles.</li>
+        <li>The best advantage of taking science stream is, it keeps your options open. You might switch from science to
+          commerce or science to arts. But it is not possible to do the other way around.</li>
+        <li>Taking science stream equips you with excellent problem-solving abilities. </li>
+        <li>Science and math offer a flexible foundation which enables students to accomplish highly respected and
+          well-paid jobs.</li>
+        <li>Science is fun, amazing and fascinating. As Edward Teller rightly said
+
+          “The science of today is the technology of tomorrow.”</li>
+      </ul>
+      <h2>->Who Should Take Science After 10th?</h2>
+      <br>
+      <h5>If technology fascinates you and you have a flair for numbers, then taking science after 10th would be a wise
+        option.
+        <br>
+        <br>
+
+        - You can opt for Physics, Chemistry, Maths (PCM).
+        <br>
+        <br>
+
+        - If you want to make a mark for yourself in the medical field, you can opt for Physics, Chemistry, Maths,
+        Biology (PCM-B).
+        <br>
+        <br>
+
+        - Now there are many students who don’t like Maths. Either they are afraid of Maths or Maths doesn’t interest
+        them. Don’t worry, if you want to become a doctor, then knowing Maths is not necessary. You can easily opt for
+        Physics, Chemistry, Biology (PCB).
+        <br>
+        <br>
+
+        There are multiple career options available for science stream after 10th class.
+      </h5>
+    </div>
+    <br>
+    <br>
+    <div class="commerce">
+      <img style="margin-left: 35%;" src="static/12th oc.jpg" alt="" width="30%">
+    </div>
+    <br>
+    <div class="data">
+      <h2>2. Commerce</h2>
+      <ul style="font-size: larger;">
+        <li>Commerce is the second most popular career option after science. If you love numbers, finances, economics
+          etc., then finance is the best option for you.</li>
+        <li> It offers a wider variety of career options such as Chartered Accountants, MBA, investment in banking
+          sectors etc.</li>
+        <li>You acquire commercial knowledge which is very important for the business.</li>
+        <li>You have to be familiar with the subjects such as Accountancy, Finance, Economics etc.</li>
+        <li>You must be good with numbers, data and have a curiosity in Finance, economics. </li>
+        <li>Commerce as a subject is gaining popularity in India and many students are studying and making a living out
+          of it.</li>
+      </ul>
+      <h2>->Who Should Take Commerce After 10th?</h2>
+      <br>
+      <h5>If you have an affinity for numbers, business, economics then commerce is the stream for you.
+        <br>
+        <br>
+
+        If you want to shape your career in economics and business world, then commerce is the right career for you.
+        <br>
+        <br>
+
+        There are a number of options available for commerce stream after 10th class. If you have any doubts regarding
+        whether to opt for commerce stream you can choose the smartest way by getting your career counselling done from
+        an expert. Proper career guidance after 10th class is extremely necessary for a hassle-free career.
+        Edumilestones career assessment is considered to be the best by the industry experts. Their career assessment is
+        tested on statistical methodologies and provides accurate and reliable results.
+      </h5>
+
+    </div>
+    <br>
+    <br>
+    <img style="margin-left: 35%;" src="static/1000_F_145523925_EFfRWOBGzmMcWyk5AfeJPIxEGpMyzcO4.jpg" alt=""
+      width="30%">
+    <br>
+    <br>
+    <div class="data">
+      <h2>3. Arts/Humanities</h2>
+      <ul style="font-size: larger;">
+        <li>Nowadays arts/humanities are very high in demand and more and more students are opting for it. </li>
+        <li>Arts is now emerging as a sought after career choice. It provides students with an array of career
+          opportunities.</li>
+        <li>It offers many lucrative career options such as Journalism, languages, history, psychology etc.</li>
+        <li>Design, Language Arts, Performing arts, Humanities are well-paid career options.</li>
+        <li>Arts subject encourage creativity and self-expression.</li>
+        <li>Students who take up art stream develop critical thinking. It also helps you increase your leadership
+          qualities.</li>
+        <li>Art teaches you to deal with the world around you. </li>
+      </ul>
+    </div>
+    <h2>->Who Should Take Arts/Humanities After 10th?</h2>
+    <br>
+    <h5>If you are a student who is creative and wants to dive deep into humanity, then arts is the stream for you.
+      <br>
+      <br>
+
+      There are multiple options available for Arts stream after 10th class. If you have any confusion you can get your
+      career counselling done. A career counsellor will provide you with proper career guidance and guide you in the
+      right direction.
+      <br>
+      <br>
+
+      These are the few good career options which you can choose after 10th class.
+    </h5>
+    <h1 style="text-align: center; margin-top:3%; color: #066220; text-decoration:underline;">WHAT ARE THE CAREER OPTIONS AFTER 10TH CLASS?</h1>
+    <br>
+    <h5>Picking the right career option after 10th is probably the most important decision of your life and should not be taken in a hurry. Let us see how you can choose the right career path after 10th:</h5><br>
+    <div class="data">
+       <ul style="font-size: larger;">
+      <li><b>Intermediate</b> (2years) – After 10th class, the student can select subject groups like PCM, PCB, PCMB, Commerce with Maths, Commerce without Maths. Post completion of 12th class, one can do graduation in multiple disciplines based on the subject selection.</li>
+      <li><b>Polytechnic</b> – After 10th class, students can do polytechnic courses like Mechanical, Civil, Chemicals, Computer, Automobile. Polytechnic colleges offer diploma courses for a duration of 3 years, 2 years and also 1 year.</li>
+      <li><b>ITI</b>(Industrial Training Institutes) – After 10th class, students can do ITI courses for employment like Mechanical, electrician, electrical.</li>
+      <li><b>Paramedical</b>– After 10th class, students can do paramedic courses like DMLT (Diploma in Medical Laboratory Technology), DOA(Diploma in Ophthalmic Assistant), DOT (Diploma in Ophthalmic Assistant). </li>
+      <li><b> Short term courses </b>– After 10th class, students can do short term courses like Tally, DTP, Graphics.</li>
+    </ul>
+    </div>
+    <h1 style="text-align: center; margin-top:3%; color: #066220; text-decoration:underline;">HOW TO PICK THE EDUCATION BOARD ? SHOULD YOUR <br> GO TO <SPAN style="color: yellowgreen; text-decoration:wavy;" >CBSE </SPAN> OR <span style="color: yellowgreen; text-decoration:wavy;" >ICSE  </span> OR <SPAN style="color: yellowgreen; text-decoration:wavy;" > IB </SPAN></h1>
+    <br>
+    <p style="font-size: larger; font-weight: bold;" >You have finished your 10th. Now you are planning to pick an education board which is most suitable for you and which will help skyrocket your career. Choosing between CBSE, ICSE and IB is not an easy option. Each education board has its own advantages. When it comes to having the best education, choosing the right board and school is very necessary. Let’s look at the perks of choosing any education board. It will be easier for you to decide which board to opt for.</p>
+    <br>
+    <br>
+  <img style="margin-left: 35%;" src="static/CBSE Logo.png" alt="" width="30%">
+  <br>
+  <br>
+  <br>
+    <h2>->Benefits of CBSE (Central Board of Secondary Education)</h2>
+    <ol style="font-size: larger;" >
+      <li>Probably the most popular education board and the national board of our country. CBSE has an integrated curricular approach which helps develop holistic individuals.</li>
+      <li>CBSE emphasizes on skill development. </li>
+      <li>CBSE helps students prepare for competitive exams as most of the questions in competitive exams are asked from NCERT.</li>
+      <li>Most of the competitive exams such as JEE mains and advanced are conducted by CBSE. </li>
+      <li>It imparts quality knowledge to the students as well as ensures the overall development of an individual.</li>
+      <li>The most important advantage of CBSE board is that it offers flexibility to choose the subjects based on student’s interest. The overall structure of CBSE is very compact and it doesn’t allow you to feel any pressure.</li>
+      <li>You don’t need to mug up the answer. Original and well-written answers are appreciated by the CBSE board giving students a chance to explore their thinking horizon. </li>
+    </ol>
+    <br><br>
+    <img style="margin-left: 35%;" src="static/what_is_icse_vplusu.jpg" alt="" width="30%" >
+    <br><br> 
+    <h2>->Benefits of ICSE (Indian Certificate of Secondary Education)</h2>
+     <ol style="font-size: larger;" >
+     <li> ICSE is considered to be the toughest board. The curriculum of ICSE is very comprehensive and it encompasses all fields with equal importance. </li>
+     <li>ICSE students become naturally very good in English because of their in-depth curriculum.</li>
+     <li>It is no surprise that students who do well in ICSE are expected to clear the Civil service exam as the art of writing compactly in English is very much needed in Civil services.</li>
+     <li> The syllabus and structure of ICSE are in such a way that it enables students to look beyond textbooks and have practical insights into the concepts.</li>
+     <li>The standard and curriculum of ICSE gives the students a strong foundation and make them ready for their future.</li>
+     <li>Amount and content of syllabus might be high, but it also develops high knowledge among the students. You might have heard that what CBSE teaches you in 11th or 12th, ICSE board has already taught the concepts in 9th. Such impact and resourceful is ICSE’s curriculum. </li>
+     </ol>
+   <h2>->Benefits of IB (International Baccalaureate)</h2>
+   <br>
+   <img style="margin-left: 35%;" src="static/ib-world-school-logo-black-solid.png" alt="" width="20%">
+   <br><br>
+    <ol style="font-size: larger;" >
+      <li>If you are planning to study abroad then IB board can help you get admission abroad.</li>
+      <li>IB board helps you become more culturally aware.</li>
+      <li>It helps you to get Global Affiliation.</li>
+      <li>Their curriculum helps in the all-round development of a student. </li>
+      <li>IB board gives you the flexibility to select your own subjects.</li>
+    </ol>
+<h3>These are the few advantages of the top education board. No board is the best. Every board has its own advantage. It totally depends on the aptitude of the student. </h3>
+  </div>
+<!-- footerr -->
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+      <h3>PROFESSION<span>-PILOT</span></h3>
+
+      <p class="footer-links">
+        <a href="/index">Home</a>
+        |
+        <a href="/about">About</a>
+        |
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Copyright © 2023 <strong>Profession-Pilot</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Ludhiana 141003</span>
+          Punjab </p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91-6239227726</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:kanavpunj2004@gmail.com">kanavpunj2004@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the website</span>
+        <strong>Profession-Pilot</strong> will help the unguided students to find their future paths according to their intrests which helps them to achieve better goals in their life.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook" style="color: blue;"></i></a>
+        <a href="#"><i class="fa fa-instagram" style="color: rgb(148, 7, 78);"></i></a>
+        <a href="#"><i class="fa fa-twitter" style="color:skyblue;"></i></a>
+        <a href="#"><i class="fa fa-youtube" style="color: red;"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
